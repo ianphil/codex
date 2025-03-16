@@ -43,7 +43,7 @@ This tool allows developers to modify code files by describing the changes they 
 The basic command syntax is:
 
 ```
-python app.py --file PATH_TO_FILE --description "Description of changes to make"
+uv run python app.py --file PATH_TO_FILE --description "Description of changes to make"
 ```
 
 ### Arguments
@@ -55,17 +55,17 @@ python app.py --file PATH_TO_FILE --description "Description of changes to make"
 
 1. Add a new function to a Python file:
    ```
-   python app.py --file examples/example.py --description "Add a new function called 'greet' that prints 'Hello, User!'"
+   uv run python app.py --file examples/example.py --description "Add a new function called 'greet' that prints 'Hello, User!'"
    ```
 
 2. Modify an existing function:
    ```
-   python app.py --file examples/example.py --description "Change the 'calculate_sum' function to also multiply the numbers"
+   uv run python app.py --file examples/example.py --description "Change the 'calculate_sum' function to also multiply the numbers"
    ```
 
 3. Add error handling:
    ```
-   python app.py --file examples/example.py --description "Add try-except blocks to handle potential errors in the 'process_data' function"
+   uv run python app.py --file examples/example.py --description "Add try-except blocks to handle potential errors in the 'process_data' function"
    ```
 
 ## Environment Variables

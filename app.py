@@ -4,14 +4,14 @@ Code Modification Tool
 This script uses LLMs to apply changes to code files based on natural language descriptions.
 
 Usage:
-    python app.py --file PATH_TO_FILE --description "Description of changes to make"
+    uv run python app.py --file PATH_TO_FILE --description "Description of changes to make"
 
 Arguments:
     --file, -f        Path to the file to modify
     --description, -d Description of the changes to make
 
 Example:
-    python app.py --file examples/example.py --description "Add a new function called 'greet' that prints 'Hello, User!'"
+    uv run python app.py --file examples/example.py --description "Add a new function called 'greet' that prints 'Hello, User!'"
 
 Environment Variables:
     XAI_API_KEY       Your X.AI API key
